@@ -14,7 +14,7 @@ export function Sidebar() {
     <aside className="fixed left-0 top-0 h-screen w-64 bg-brand-dark text-white flex flex-col">
       {/* TOP AREA */}
       <div className="p-6 border-b border-gray-800">
-        <h1 className="font-serif text-2xl text-brand-primary tracking-wide">Global Template</h1>
+        <h1 className="font-serif text-2xl text-brand-primary tracking-wide">my-new-app</h1>
       </div>
 
       {/* MIDDLE AREA */}

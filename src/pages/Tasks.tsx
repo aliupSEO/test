@@ -3,8 +3,8 @@ import { collection, query, onSnapshot, doc, setDoc, Timestamp } from 'firebase/
 import { db } from '../lib/firebase';
 import { Plus, Clock, CheckCircle2, Circle } from 'lucide-react';
 
-// WICHTIG: Nutze exakt diesen Pfad für die Global Template App
-const APP_ID = 'global_template__global_template_v1';
+// WICHTIG: Nutze exakt diesen Pfad für die my-new-app App
+const APP_ID = 'my_new_app__my_new_app_v1';
 const TASKS_PATH = `apps/${APP_ID}/tasks`;
 
 interface Task {

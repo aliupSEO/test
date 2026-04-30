@@ -9,7 +9,7 @@ export function Header() {
       case '/': return 'Dashboard';
       case '/tasks': return 'Task Management';
       case '/settings': return 'Settings';
-      default: return 'Global Template';
+      default: return 'my-new-app';
     }
   };
 
