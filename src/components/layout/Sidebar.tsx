@@ -11,10 +11,10 @@ export function Sidebar() {
   ];
 
   return (
-    <aside className="fixed left-0 top-0 h-screen w-64 bg-brand-dark text-white flex flex-col">
+    <aside className="fixed left-0 top-0 h-screen w-64 bg-secondary text-white flex flex-col">
       {/* TOP AREA */}
       <div className="p-6 border-b border-gray-800">
-        <h1 className="font-serif text-2xl text-brand-primary tracking-wide">my-new-app</h1>
+        <h1 className="font-serif text-2xl text-primary tracking-wide">my-new-app</h1>
       </div>
 
       {/* MIDDLE AREA */}
@@ -27,7 +27,7 @@ export function Sidebar() {
               key={item.name}
               to={item.path}
               className={`flex items-center space-x-3 px-4 py-3 rounded-lg transition-colors ${
-                isActive ? 'bg-gray-800 text-brand-primary' : 'text-gray-400 hover:text-brand-primary hover:bg-gray-800/50'
+                isActive ? 'bg-gray-800 text-primary' : 'text-gray-400 hover:text-primary hover:bg-gray-800/50'
               }`}
             >
               <Icon size={20} />

@@ -26,7 +26,7 @@ export function ImageUploader({ onImageSelected }: ImageUploaderProps) {
         onChange={handleFileChange}
         className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
       />
-      <div className="flex items-center gap-2 px-4 py-2 bg-brand-dark text-white rounded-lg hover:bg-gray-800 transition-colors">
+      <div className="flex items-center gap-2 px-4 py-2 bg-secondary text-white rounded-lg hover:bg-gray-800 transition-colors">
         <Upload size={18} />
         <span>Bild hochladen (Base64)</span>
       </div>

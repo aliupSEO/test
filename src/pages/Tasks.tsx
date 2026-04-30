@@ -87,11 +87,11 @@ export function Tasks() {
             value={newTaskTitle}
             onChange={(e) => setNewTaskTitle(e.target.value)}
             placeholder="Task Beschreibung..."
-            className="flex-1 p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-primary focus:border-transparent outline-none"
+            className="flex-1 p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none"
           />
           <button 
             type="submit"
-            className="bg-brand-dark text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center gap-2"
+            className="bg-secondary text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors flex items-center gap-2"
           >
             <Plus size={20} />
             Hinzufügen

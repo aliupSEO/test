@@ -24,7 +24,7 @@ export function ChatInput({ onSubmit, placeholder = "Nachricht eingeben... (Ctrl
       onChange={(e) => setText(e.target.value)}
       onKeyDown={handleKeyDown}
       placeholder={placeholder}
-      className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand-primary focus:border-transparent resize-none min-h-[100px]"
+      className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none min-h-[100px]"
     />
   );
 }

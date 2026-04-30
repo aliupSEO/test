@@ -16,7 +16,7 @@ export function Dashboard() {
             <div key={metric.title} className="bg-white p-6 rounded-lg shadow-sm border border-gray-100">
               <div className="flex items-center justify-between mb-4">
                 <div className="p-2 bg-gray-50 rounded-lg">
-                  <Icon className="text-brand-dark" size={24} />
+                  <Icon className="text-secondary" size={24} />
                 </div>
                 <span className="text-green-500 text-sm font-medium">{metric.trend}</span>
               </div>

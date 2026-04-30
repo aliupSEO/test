@@ -4,11 +4,11 @@ import { Header } from './Header';
 
 export function Layout() {
   return (
-    <div className="min-h-screen bg-brand-light flex">
+    <div className="min-h-screen bg-white flex">
       <Sidebar />
       <div className="flex-1 ml-64 flex flex-col">
         <Header />
-        <main className="flex-1 mt-16 p-8 overflow-y-auto text-brand-dark">
+        <main className="flex-1 mt-16 p-8 overflow-y-auto text-secondary">
           <Outlet />
         </main>
       </div>

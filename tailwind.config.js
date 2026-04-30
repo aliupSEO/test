@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'brand-dark': '#101010',
-        'brand-primary': '#B7EF02',
-        'brand-light': '#ffffff',
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        tertiary: "var(--color-tertiary)",
       },
       fontFamily: {
         sans: ['Barlow', 'sans-serif'],
